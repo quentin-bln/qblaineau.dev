@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Database, Layout, Cpu } from "lucide-react";
+import { ExternalLink, Gift, Car, ShoppingCart } from "lucide-react";
 import { MagicCard } from "@/components/magicui/MagicCard";
+import { SiReact, SiJavascript, SiShadcnui, SiFlutter, SiDart, SiLaravel, SiPhp, SiMysql } from "react-icons/si";
 
 export default function Projects() {
     return (
@@ -12,64 +13,77 @@ export default function Projects() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
             className="w-full max-w-6xl mt-12 mb-32 px-4"
         >
+            <div className="flex flex-col items-center mb-12">
+                <h2 className="text-3xl font-bold text-white mb-4">Projets</h2>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <span className="text-2xl">📦</span>
-                        <a href="https://github.com/TonPseudo/projet1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                        <Gift className="w-8 h-8 text-white" />
+                        <a href="https://github.com/quentin-bln/surpriz-web" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>
                     </div>
-                    <h4 className="text-xl font-bold text-white mb-3">Gestion de Stock</h4>
+                    <h4 className="text-xl font-bold text-white mb-3">Surpriz</h4>
                     <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                        Application interne permettant aux commerçants de suivre leur stock en temps réel avec un système d'alerte et rapports.
+                        Application de gestion de listes de souhaits collaborative pour événements. Écosystème complet incluant interfaces web, mobile et API.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                         <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
-                            <Cpu className="w-3 h-3" /> Java
+                            <SiReact className="w-3 h-3" /> React
                         </span>
                         <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
-                            <Database className="w-3 h-3" /> Postgres
+                            <SiJavascript className="w-3 h-3" /> JavaScript
+                        </span>
+                        <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
+                            <SiShadcnui className="w-3 h-3" /> shadcn/ui
                         </span>
                     </div>
                 </MagicCard>
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <span className="text-2xl">🤖</span>
-                        <a href="https://github.com/TonPseudo/projet2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                        <Car className="w-8 h-8 text-white" />
+                        <a href="https://github.com/quentin-bln/7Check-Frontend" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>
                     </div>
-                    <h4 className="text-xl font-bold text-white mb-3">Portfolio React</h4>
+                    <h4 className="text-xl font-bold text-white mb-3">7Check</h4>
                     <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                        Portfolio moderne avec animations fluides, développé avec NextJS et TailwindCSS pour présenter mes compétences.
+                        Application mobile métier permettant aux agents de la société Seven de réaliser les états des lieux d&#39;entrée et de sortie de véhicules.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                         <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
-                            <Layout className="w-3 h-3" /> NextJS
+                            <SiFlutter className="w-3 h-3" /> Flutter
                         </span>
                         <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
-                            <Layout className="w-3 h-3" /> Tailwind
+                            <SiDart className="w-3 h-3" /> Dart
                         </span>
                     </div>
                 </MagicCard>
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <span className="text-2xl">⚡</span>
-                        <a href="https://github.com/TonPseudo/projet3" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                        <ShoppingCart className="w-8 h-8 text-white" />
+                        <a href="https://github.com/quentin-bln/alisales" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>
                     </div>
-                    <h4 className="text-xl font-bold text-white mb-3">Outil Interne</h4>
+                    <h4 className="text-xl font-bold text-white mb-3">Alisales</h4>
                     <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                        Script d'automatisation et de traitement de données pour simplifier les processus administratifs quotidiens.
+                        Plateforme web e-commerce conçue pour la gestion et la proposition d&#39;un vaste catalogue de produits de l&#39;entreprise Alizon.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                         <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
-                            <Database className="w-3 h-3" /> Python
+                            <SiLaravel className="w-3 h-3" /> Laravel
+                        </span>
+                        <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
+                            <SiPhp className="w-3 h-3" /> PHP
+                        </span>
+                        <span className="flex items-center gap-1.5 px-3 py-1 bg-[#22d3ee] rounded-full text-xs font-bold text-slate-900">
+                            <SiMysql className="w-3 h-3" /> MySQL
                         </span>
                     </div>
                 </MagicCard>
