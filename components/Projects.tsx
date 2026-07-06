@@ -21,7 +21,7 @@ export default function Projects() {
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <Gift className="w-8 h-8 text-white" />
+                        <Gift className="w-8 h-8 text-purple-400" />
                         <a href="https://github.com/quentin-bln/surpriz-web" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>
@@ -45,7 +45,7 @@ export default function Projects() {
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <Car className="w-8 h-8 text-white" />
+                        <Car className="w-8 h-8 text-blue-400" />
                         <a href="https://github.com/quentin-bln/7Check-Frontend" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>
@@ -66,7 +66,7 @@ export default function Projects() {
 
                 <MagicCard className="p-6 flex flex-col items-start w-full bg-[#0f172a] border-none rounded-2xl" gradientColor="#1e293b">
                     <div className="flex justify-between w-full mb-4">
-                        <ShoppingCart className="w-8 h-8 text-white" />
+                        <ShoppingCart className="w-8 h-8 text-emerald-400" />
                         <a href="https://github.com/quentin-bln/alisales" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <ExternalLink className="w-5 h-5" />
                         </a>

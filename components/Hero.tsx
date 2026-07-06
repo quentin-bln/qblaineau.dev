@@ -25,19 +25,19 @@ export default function Hero() {
                 </h1>
 
                 <p className="text-lg md:text-xl text-gray-400 mb-10 leading-relaxed max-w-2xl">
-                    <span className="text-white font-bold">Développeur Junior.</span> À la recherche d'une alternance pour un Bachelor Concepteur Développeur d'Applications pour septembre 2026.
+                    <span className="text-white font-bold">Développeur Junior. </span> À la recherche d&#39;une alternance pour un Bachelor Concepteur Développeur d&#39;Applications pour septembre 2026.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4">
-                    <a href="https://github.com/TonPseudo" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
+                    <a href="https://github.com/quentin-bln" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
                         <GithubIcon className="w-4 h-4" />
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/in/ton-profil" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
+                    <a href="https://www.linkedin.com/in/quentin-blaineau" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
                         <LinkedinIcon className="w-4 h-4" />
                         LinkedIn
                     </a>
-                    <a href="mailto:ton.email@email.com" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
+                    <a href="mailto:qblaineau.pro@gmail.com" className="flex items-center gap-2 px-5 py-2.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white rounded-lg text-sm font-medium transition-colors">
                         <Mail className="w-4 h-4" />
                         Contact
                     </a>

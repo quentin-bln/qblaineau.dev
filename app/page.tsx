@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 import { Stars } from "@/components/magicui/Stars";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
                 <Hero />
                 <Skills />
                 <Projects />
+                <Footer />
             </div>
 
         </main>

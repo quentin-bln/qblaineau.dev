@@ -14,7 +14,9 @@ import {
     SiExpo,
     SiGithub,
     SiVercel,
-    SiPhpmyadmin
+    SiPhpmyadmin,
+    SiDart,
+    SiInsomnia
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -86,6 +88,10 @@ export default function Skills() {
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className="flex items-center gap-3">
+                            <SiDart className="w-5 h-5 text-blue-400" />
+                            <span className="text-gray-300 text-sm font-medium">Dart</span>
+                        </div>
+                        <div className="flex items-center gap-3">
                             <SiFlutter className="w-5 h-5 text-cyan-500" />
                             <span className="text-gray-300 text-sm font-medium">Flutter</span>
                         </div>
@@ -113,6 +119,10 @@ export default function Skills() {
                         <div className="flex items-center gap-3">
                             <SiPhpmyadmin className="w-5 h-5 text-orange-400" />
                             <span className="text-gray-300 text-sm font-medium">phpMyAdmin</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                            <SiInsomnia className="w-5 h-5 text-purple-500" />
+                            <span className="text-gray-300 text-sm font-medium">Insomnia</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <SiVercel className="w-5 h-5 text-white" />
