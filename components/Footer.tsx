@@ -14,7 +14,7 @@ export default function Footer() {
         >
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 gap-4">
                 <p className="text-gray-500 text-sm text-center md:text-left">
-                    © 2026 Quentin BLAINEAU (lien site). Tous droits réservés.
+                    © 2026 Quentin BLAINEAU (qblaineau.vercel.app). Tous droits réservés.
                 </p>
                 <div className="flex items-center gap-6">
                     <a href="https://github.com/quentin-bln" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
